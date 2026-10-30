@@ -4,7 +4,7 @@
 #include "mt7981b-cetron-ct3003.dtsi"
 
 / {
-	model = "Cetron CT3003 (stock layout)";
+	model = "Cetron CT3003 (Max Ubi layout)";
 	compatible = "cetron,ct3003", "mediatek,mt7981";
 };
 
