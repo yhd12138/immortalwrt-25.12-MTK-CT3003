@@ -875,7 +875,7 @@ define Device/cetron_ct3003
   DEVICE_VARIANT := (stock layout)
   DEVICE_DTS := mt7981b-cetron-ct3003
   DEVICE_DTS_DIR := ../dts
-  SUPPORTED_DEVICES += cetron,ct3003-stock mediatek,mt7981-spim-snand-rfb
+  SUPPORTED_DEVICES += cetron,ct3003-stock cetron,ct3003-maxubi mediatek,mt7981-spim-snand-rfb
   DEVICE_PACKAGES := 
   UBINIZE_OPTS := -E 5
   BLOCKSIZE := 128k
@@ -894,7 +894,7 @@ define Device/cetron_ct3003-maxubi
   DEVICE_VARIANT := (Max Ubi layout)
   DEVICE_DTS := mt7981b-cetron-ct3003-maxubi
   DEVICE_DTS_DIR := ../dts
-  SUPPORTED_DEVICES += cetron,ct3003-stock mediatek,mt7981-spim-snand-rfb
+  SUPPORTED_DEVICES += cetron,ct3003-stock cetron,ct3003 mediatek,mt7981-spim-snand-rfb
   DEVICE_PACKAGES := 
   UBINIZE_OPTS := -E 5
   BLOCKSIZE := 128k
